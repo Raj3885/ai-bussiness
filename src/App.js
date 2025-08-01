@@ -19,6 +19,7 @@ import MarketingPage from './pages/Marketing/MarketingPage';
 import ChatbotPage from './pages/Chatbot/ChatbotPage';
 import AnalyticsPage from './pages/Analytics/AnalyticsPage';
 import ImageGeneratorPage from './pages/ImageGenerator/ImageGeneratorPage';
+import PublicWebsitePage from './pages/PublicWebsite/PublicWebsitePage';
 import ProfilePage from './pages/Profile/ProfilePage';
 import SettingsPage from './pages/Settings/SettingsPage';
 import OnboardingPage from './pages/Onboarding/OnboardingPage';
@@ -46,6 +47,9 @@ function App() {
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
+
+            {/* Public Website Routes */}
+            <Route path="/websites/:username" element={<PublicWebsitePage />} />
                 
                 {/* Protected routes */}
                 <Route path="/app" element={

@@ -99,14 +99,14 @@ const Sidebar = ({ isOpen, onClose }) => {
                         className={({ isActive }) =>
                           `group flex gap-x-3 rounded-lg p-3 text-sm leading-6 font-medium transition-all duration-200 ${
                             isActive
-                              ? 'bg-primary-50 text-primary-700 shadow-soft'
-                              : 'text-neutral-700 hover:text-primary-700 hover:bg-neutral-50'
+                              ? 'bg-primary-50 text-primary-600 shadow-lg'
+                              : 'text-neutral-700 hover:text-primary-600 hover:bg-neutral-50'
                           }`
                         }
                       >
                         <item.icon
                           className={`h-5 w-5 shrink-0 transition-colors ${
-                            item.current ? 'text-primary-600' : 'text-neutral-400 group-hover:text-primary-600'
+                            item.current ? 'text-primary-500' : 'text-neutral-400 group-hover:text-primary-500'
                           }`}
                         />
                         {item.name}
@@ -118,12 +118,12 @@ const Sidebar = ({ isOpen, onClose }) => {
 
               {/* AI Features Badge */}
               <li>
-                <div className="bg-gradient-to-r from-primary-50 to-secondary-50 rounded-lg p-4 border border-primary-100">
+                <div className="bg-gradient-to-r from-primary-50 to-secondary-50 rounded-lg p-4 border border-primary-200">
                   <div className="flex items-center space-x-2 mb-2">
-                    <Zap className="w-4 h-4 text-primary-600" />
-                    <span className="text-sm font-medium text-primary-900">AI-Powered</span>
+                    <Zap className="w-4 h-4 text-primary-500" />
+                    <span className="text-sm font-medium text-primary-800">AI-Powered</span>
                   </div>
-                  <p className="text-xs text-primary-700">
+                  <p className="text-xs text-primary-600">
                     All tools are enhanced with artificial intelligence for better results.
                   </p>
                 </div>
@@ -139,14 +139,14 @@ const Sidebar = ({ isOpen, onClose }) => {
                         className={({ isActive }) =>
                           `group flex gap-x-3 rounded-lg p-3 text-sm leading-6 font-medium transition-all duration-200 ${
                             isActive
-                              ? 'bg-primary-50 text-primary-700 shadow-soft'
-                              : 'text-neutral-700 hover:text-primary-700 hover:bg-neutral-50'
+                              ? 'bg-primary-50 text-primary-600 shadow-lg'
+                              : 'text-neutral-700 hover:text-primary-600 hover:bg-neutral-50'
                           }`
                         }
                       >
                         <item.icon
                           className={`h-5 w-5 shrink-0 transition-colors ${
-                            item.current ? 'text-primary-600' : 'text-neutral-400 group-hover:text-primary-600'
+                            item.current ? 'text-primary-500' : 'text-neutral-400 group-hover:text-primary-500'
                           }`}
                         />
                         {item.name}
@@ -197,14 +197,14 @@ const Sidebar = ({ isOpen, onClose }) => {
                         className={({ isActive }) =>
                           `group flex gap-x-3 rounded-lg p-3 text-sm leading-6 font-medium transition-all duration-200 ${
                             isActive
-                              ? 'bg-primary-50 text-primary-700 shadow-soft'
-                              : 'text-neutral-700 hover:text-primary-700 hover:bg-neutral-50'
+                              ? 'bg-primary-50 text-primary-600 shadow-lg'
+                              : 'text-neutral-700 hover:text-primary-600 hover:bg-neutral-50'
                           }`
                         }
                       >
                         <item.icon
                           className={`h-5 w-5 shrink-0 transition-colors ${
-                            item.current ? 'text-primary-600' : 'text-neutral-400 group-hover:text-primary-600'
+                            item.current ? 'text-primary-500' : 'text-neutral-400 group-hover:text-primary-500'
                           }`}
                         />
                         {item.name}
@@ -216,12 +216,12 @@ const Sidebar = ({ isOpen, onClose }) => {
 
               {/* AI Features Badge */}
               <li>
-                <div className="bg-gradient-to-r from-primary-50 to-secondary-50 rounded-lg p-4 border border-primary-100">
+                <div className="bg-gradient-to-r from-primary-50 to-secondary-50 rounded-lg p-4 border border-primary-200">
                   <div className="flex items-center space-x-2 mb-2">
-                    <Zap className="w-4 h-4 text-primary-600" />
-                    <span className="text-sm font-medium text-primary-900">AI-Powered</span>
+                    <Zap className="w-4 h-4 text-primary-500" />
+                    <span className="text-sm font-medium text-primary-800">AI-Powered</span>
                   </div>
-                  <p className="text-xs text-primary-700">
+                  <p className="text-xs text-primary-600">
                     All tools are enhanced with artificial intelligence for better results.
                   </p>
                 </div>

@@ -22,37 +22,37 @@ const LandingPage = () => {
       icon: Globe,
       title: 'AI Website Builder',
       description: 'Generate professional websites from simple business inputs with real-time preview and customization.',
-      color: 'text-primary-600'
+      color: 'text-primary-500'
     },
     {
       icon: Mail,
       title: 'Marketing Automation',
       description: 'AI-powered email campaigns, automated newsletters, and customer engagement tracking.',
-      color: 'text-secondary-600'
+      color: 'text-secondary-500'
     },
     {
       icon: MessageCircle,
       title: 'Smart Chatbot',
       description: '24/7 customer support with business-specific training and natural language processing.',
-      color: 'text-accent-600'
+      color: 'text-accent-500'
     },
     {
       icon: BarChart3,
       title: 'Analytics & Insights',
       description: 'Sentiment analysis, feedback summarization, and actionable business insights.',
-      color: 'text-success-600'
+      color: 'text-success-500'
     },
     {
       icon: Image,
       title: 'Image Generation',
       description: 'AI-powered image creation, product enhancement, and sketch-to-image conversion.',
-      color: 'text-warning-600'
+      color: 'text-warning-500'
     },
     {
       icon: Zap,
       title: 'Automation',
       description: 'Seamless coordination between all AI modules for a unified business experience.',
-      color: 'text-error-600'
+      color: 'text-error-500'
     }
   ];
 
@@ -273,7 +273,7 @@ const LandingPage = () => {
 
       {/* CTA Section */}
       <section className="container-custom section-padding">
-        <div className="text-center bg-gradient-primary rounded-3xl p-12 lg:p-16 text-white">
+        <div className="text-center bg-gradient-to-r from-primary-500 to-secondary-500 rounded-3xl p-12 lg:p-16 text-white">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             Ready to Transform Your Business?
           </h2>
@@ -283,10 +283,10 @@ const LandingPage = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link to="/register" className="btn bg-white text-primary-600 hover:bg-neutral-100 btn-xl">
+            <Link to="/register" className="btn bg-white text-primary-500 hover:bg-neutral-100 btn-xl">
               Start Free Trial
             </Link>
-            <button className="btn border-2 border-white text-white hover:bg-white hover:text-primary-600 btn-xl">
+            <button className="btn border-2 border-white text-white hover:bg-white hover:text-primary-500 btn-xl">
               Schedule Demo
             </button>
           </div>

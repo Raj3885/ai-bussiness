@@ -26,7 +26,7 @@ const DashboardPage = () => {
       change: '+2 this month',
       changeType: 'positive',
       icon: Globe,
-      color: 'text-primary-600'
+      color: 'text-primary-500'
     },
     {
       name: 'Email Campaigns',
@@ -34,7 +34,7 @@ const DashboardPage = () => {
       change: '+4 this week',
       changeType: 'positive',
       icon: Mail,
-      color: 'text-secondary-600'
+      color: 'text-secondary-500'
     },
     {
       name: 'Chat Interactions',
@@ -42,7 +42,7 @@ const DashboardPage = () => {
       change: '+23 today',
       changeType: 'positive',
       icon: MessageCircle,
-      color: 'text-accent-600'
+      color: 'text-accent-500'
     },
     {
       name: 'Images Generated',
@@ -50,7 +50,7 @@ const DashboardPage = () => {
       change: '+12 this week',
       changeType: 'positive',
       icon: Image,
-      color: 'text-success-600'
+      color: 'text-success-500'
     }
   ];
 
@@ -92,7 +92,7 @@ const DashboardPage = () => {
       title: 'Website "Modern Bakery" published',
       time: '2 hours ago',
       icon: Globe,
-      color: 'text-primary-600'
+      color: 'text-primary-500'
     },
     {
       id: 2,
@@ -100,7 +100,7 @@ const DashboardPage = () => {
       title: 'Newsletter sent to 150 subscribers',
       time: '4 hours ago',
       icon: Mail,
-      color: 'text-secondary-600'
+      color: 'text-secondary-500'
     },
     {
       id: 3,
@@ -108,7 +108,7 @@ const DashboardPage = () => {
       title: 'Chatbot answered 12 customer queries',
       time: '6 hours ago',
       icon: MessageCircle,
-      color: 'text-accent-600'
+      color: 'text-accent-500'
     },
     {
       id: 4,
@@ -116,7 +116,7 @@ const DashboardPage = () => {
       title: 'Generated 5 product images',
       time: '1 day ago',
       icon: Image,
-      color: 'text-success-600'
+      color: 'text-success-500'
     }
   ];
 
@@ -128,7 +128,7 @@ const DashboardPage = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="bg-gradient-to-r from-primary-600 to-secondary-600 rounded-2xl p-8 text-white">
+        <div className="bg-gradient-to-r from-primary-500 to-secondary-500 rounded-2xl p-8 text-white">
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold mb-2">
@@ -264,32 +264,32 @@ const DashboardPage = () => {
                 <span className="text-sm font-semibold text-neutral-900">+24%</span>
               </div>
               <div className="w-full bg-neutral-200 rounded-full h-2">
-                <div className="bg-primary-600 h-2 rounded-full" style={{ width: '75%' }}></div>
+                <div className="bg-primary-500 h-2 rounded-full" style={{ width: '75%' }}></div>
               </div>
             </div>
-            
+
             <div>
               <div className="flex items-center justify-between mb-2">
                 <span className="text-sm font-medium text-neutral-600">Email Open Rate</span>
                 <span className="text-sm font-semibold text-neutral-900">68%</span>
               </div>
               <div className="w-full bg-neutral-200 rounded-full h-2">
-                <div className="bg-secondary-600 h-2 rounded-full" style={{ width: '68%' }}></div>
+                <div className="bg-secondary-500 h-2 rounded-full" style={{ width: '68%' }}></div>
               </div>
             </div>
-            
+
             <div>
               <div className="flex items-center justify-between mb-2">
                 <span className="text-sm font-medium text-neutral-600">Customer Satisfaction</span>
                 <span className="text-sm font-semibold text-neutral-900">92%</span>
               </div>
               <div className="w-full bg-neutral-200 rounded-full h-2">
-                <div className="bg-success-600 h-2 rounded-full" style={{ width: '92%' }}></div>
+                <div className="bg-success-500 h-2 rounded-full" style={{ width: '92%' }}></div>
               </div>
             </div>
             
             <div className="pt-4 border-t border-neutral-200">
-              <div className="flex items-center justify-center space-x-2 text-success-600">
+              <div className="flex items-center justify-center space-x-2 text-success-500">
                 <TrendingUp className="w-4 h-4" />
                 <span className="text-sm font-medium">All metrics trending up</span>
               </div>

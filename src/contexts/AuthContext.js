@@ -121,9 +121,13 @@ export const AuthProvider = ({ children }) => {
             payload: response.data 
           });
         } catch (error) {
-          dispatch({ 
-            type: AUTH_ACTIONS.LOAD_USER_FAILURE, 
-            payload: error.response?.data?.message || 'Failed to load user' 
+          console.error('Token validation failed:', error.response?.data?.message);
+          // Clear invalid token
+          localStorage.removeItem('token');
+          localStorage.removeItem('user');
+          dispatch({
+            type: AUTH_ACTIONS.LOAD_USER_FAILURE,
+            payload: error.response?.data?.message || 'Failed to load user'
           });
         }
       } else {

@@ -240,11 +240,11 @@ const RegisterPage = () => {
                   />
                   <span className="text-sm text-neutral-600">
                     I agree to the{' '}
-                    <Link to="/terms" className="text-primary-600 hover:text-primary-700">
+                    <Link to="/terms" className="text-primary-500 hover:text-primary-600">
                       Terms of Service
                     </Link>{' '}
                     and{' '}
-                    <Link to="/privacy" className="text-primary-600 hover:text-primary-700">
+                    <Link to="/privacy" className="text-primary-500 hover:text-primary-600">
                       Privacy Policy
                     </Link>
                   </span>
@@ -275,7 +275,7 @@ const RegisterPage = () => {
             <div className="mt-6 text-center">
               <p className="text-neutral-600">
                 Already have an account?{' '}
-                <Link to="/login" className="text-primary-600 hover:text-primary-700 font-medium">
+                <Link to="/login" className="text-primary-500 hover:text-primary-600 font-medium">
                   Sign in
                 </Link>
               </p>

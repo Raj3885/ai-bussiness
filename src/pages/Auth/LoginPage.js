@@ -129,7 +129,7 @@ const LoginPage = () => {
               </label>
               <Link
                 to="/forgot-password"
-                className="text-sm text-primary-600 hover:text-primary-700"
+                className="text-sm text-primary-500 hover:text-primary-600"
               >
                 Forgot password?
               </Link>
@@ -187,7 +187,7 @@ const LoginPage = () => {
           <div className="mt-6 text-center">
             <p className="text-neutral-600">
               Don't have an account?{' '}
-              <Link to="/register" className="text-primary-600 hover:text-primary-700 font-medium">
+              <Link to="/register" className="text-primary-500 hover:text-primary-600 font-medium">
                 Sign up for free
               </Link>
             </p>

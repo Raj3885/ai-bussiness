@@ -90,7 +90,7 @@ const Header = ({ onMenuClick }) => {
         {/* Right side */}
         <div className="flex items-center space-x-4">
           {/* AI Status Indicator */}
-          <div className="hidden md:flex items-center space-x-2 px-3 py-1 bg-success-50 text-success-700 rounded-full text-sm">
+          <div className="hidden md:flex items-center space-x-2 px-3 py-1 bg-success-50 text-success-600 rounded-full text-sm">
             <Sparkles className="w-4 h-4" />
             <span>AI Active</span>
           </div>
@@ -103,7 +103,7 @@ const Header = ({ onMenuClick }) => {
             >
               <Bell className="w-5 h-5" />
               {unreadCount > 0 && (
-                <span className="absolute -top-1 -right-1 w-5 h-5 bg-error-500 text-white text-xs rounded-full flex items-center justify-center">
+                <span className="absolute -top-1 -right-1 w-5 h-5 bg-primary-500 text-white text-xs rounded-full flex items-center justify-center">
                   {unreadCount}
                 </span>
               )}
@@ -130,7 +130,7 @@ const Header = ({ onMenuClick }) => {
                       >
                         <div className="flex items-start space-x-3">
                           {notification.unread && (
-                            <div className="w-2 h-2 bg-primary-500 rounded-full mt-2"></div>
+                            <div className="w-2 h-2 bg-accent-500 rounded-full mt-2"></div>
                           )}
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium text-neutral-900">
@@ -148,7 +148,7 @@ const Header = ({ onMenuClick }) => {
                     ))}
                   </div>
                   <div className="px-4 py-2 border-t border-neutral-100">
-                    <button className="text-sm text-primary-600 hover:text-primary-700">
+                    <button className="text-sm text-primary-500 hover:text-primary-600">
                       View all notifications
                     </button>
                   </div>
